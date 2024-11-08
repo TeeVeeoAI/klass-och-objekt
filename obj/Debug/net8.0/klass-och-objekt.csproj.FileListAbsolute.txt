@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\bin\Debug\net8.0\klass-och-objekt.exe
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\bin\Debug\net8.0\klass-och-objekt.deps.json
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\bin\Debug\net8.0\klass-och-objekt.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\bin\Debug\net8.0\klass-och-objekt.dll
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\bin\Debug\net8.0\klass-och-objekt.pdb
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.sourcelink.json
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.dll
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\refint\klass-och-objekt.dll
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.pdb
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\klass-och-objekt.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\klass-och-objekt\obj\Debug\net8.0\ref\klass-och-objekt.dll
