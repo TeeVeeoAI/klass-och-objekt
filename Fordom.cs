@@ -8,42 +8,29 @@ namespace klass_och_objekt
         private int årsmodell;
         private double vikt;
         //
-        //Set
+        //Get och Set
         //
-        public void SetTillverkare(string a) {
-            tillverkare = a;
+        public string Tillverkare {
+            get { return tillverkare;}
+            set { tillverkare = value;}
         }
-        public void SetModell(string a) {
-            modell = a;
+        public string Modell {
+            get { return modell;}
+            set { modell = value;}
         }
-        public void SetÅrsModell(int a) {
-            if (a < 1885) {
-                årsmodell = 1885;
-            } else {
-                årsmodell = a;
-            }
+        public int GetÅrsModell {
+            get { return årsmodell;}
+            set { årsmodell = value;}
         }
-        public void SetVikt(double a) {
-            if (a < 0) {
-                vikt = 0;
-            } else {
-                vikt = a;
-            }
+        public double GetVikt {
+            get { return vikt; }
+            set { vikt = value;}
         }
-        //
-        //Get
-        //
-        public string GetTillverkare() {
-            return tillverkare;
-        }
-        public string GetModell() {
-            return modell;
-        }
-        public int GetÅrsModell() {
-            return årsmodell;
-        }
-        public double GetVikt() {
-            return vikt;
+        public Fordom(string t, string m, int å, double v) {
+            tillverkare = t;
+            modell = m;
+            årsmodell = å;
+            vikt = v;
         }
     }
 }
