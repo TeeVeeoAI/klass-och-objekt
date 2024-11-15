@@ -8,7 +8,7 @@ void M()  {
     int i = 0;
     while (true) {
         if (i != 0) {
-            Write("Vill du ha en till");
+            Write("Vill du ha en till: ");
             if (Console.ReadLine() == "Ja") {
                 bil++;
             } else {
@@ -26,9 +26,9 @@ void Bil() {
     Write("Modell: ");
     string m = Console.ReadLine();
     Write("Årsmodell: ");
-    int å = Try();
+    int å = TryInt();
     Write("Vikt: ");
-    int v = Try();
+    double v = TryDouble();
     Fordom fordom = new Fordom(t, m, å, v);
 }
 
@@ -39,11 +39,24 @@ void Write(string a) {
     }
 }
 
-int  Try(){
+int TryInt(){
     int å;
-    while (true) {
+    while (true) { 
         try {
             å = int.Parse(Console.ReadLine());
+            break;
+        } catch(System.Exception) {
+            Write("Skriv nummer pls: ");
+        }
+    }
+    return å;
+}
+
+double TryDouble(){
+    double å;
+    while (true) { 
+        try {
+            å = double.Parse(Console.ReadLine());
             break;
         } catch(System.Exception) {
             Write("Skriv nummer pls: ");
