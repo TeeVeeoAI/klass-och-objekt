@@ -18,11 +18,11 @@ namespace klass_och_objekt
             get { return modell;}
             set { modell = value;}
         }
-        public int GetÅrsModell {
+        public int ÅrsModell {
             get { return årsmodell;}
             set { årsmodell = value;}
         }
-        public double GetVikt {
+        public double Vikt {
             get { return vikt; }
             set { vikt = value;}
         }
